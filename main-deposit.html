@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Travel - Tour Travel</title>
+		 <!--== META TAGS ==-->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	     <!-- FAV ICON -->
+	    <link rel="shortcut icon" href="images/fav.ico">
+	    <!-- GOOGLE FONTS -->
+	    <link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:400,500,700" rel="stylesheet">
+	    <!-- FONT-AWESOME ICON CSS -->
+	    <link rel="stylesheet" href="css/font-awesome.min.css">
+	    <!--== ALL CSS FILES ==-->
+	    <link rel="stylesheet" href="css/style.css">
+	    <link rel="stylesheet" href="css/materialize.css">
+	    <link rel="stylesheet" href="css/bootstrap.css">
+	    <link rel="stylesheet" href="css/mob.css">
+	    <link rel="stylesheet" href="css/animate.css">
+	</head>
+	<body>
+		<section>
+		<div class="rows inn-page-bg com-colo">
+			<div class="container inn-page-con-bg events events-1 tb-space" id="inner-page-title">
+				<!-- TITLE & DESCRIPTION -->
+				<div class="col-md-4">
+					<a href=""><h3>Main Page / Deposit</h3></a>
+					
+				</div>
+				<div class="col-md-12">
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by payment system.." title="Type in a name">
+					<!-- <table id="myTable"> -->
+						<div class="row">
+					    <div class="col s12 m2">
+					      <div class="card">
+					        <div class="card-image">
+					          <img src="images/Bank/maybank.png">
+					        </div>
+					        <div class="card-content">
+					          <ul class="a">
+								  <li>Coffee</li>
+								  <li>Tea</li>
+								  <li>Coca Cola</li>
+							  </ul>
+					        </div>
+					        <div class="card-action">
+					          <a href="#" data-toggle="modal" data-target="#basicExampleModal">This is a link</a>
+					        </div>
+					      </div>
+					    </div>
+						<!-- this is modal -->
+
+						<!-- Modal -->
+						<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h3 class="modal-title" id="exampleModalLabel">Deposit Funds</h3>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      	<div class="row">
+							      <div class="col s12">
+							      <!-- kolom 1 -->
+							      <div class="col s6">
+							      	<div class="row">
+							      		<div class="col s6">
+							      			<img src="images/Bank/maybank.png">
+							      		</div>
+							      		<div class="col s6">
+							      			<label><span>Maybank Berhad</span></label>
+							      		</div>
+							      	</div>
+							      	<div class="col s12">
+							      	   <label><span>Account Number</span></label> 
+									   <select class="browser-default custom-select form-control">
+										  <option selected>Select your Account</option>
+										  <option value="1">One</option>
+										  <option value="2">Two</option>
+										  <option value="3">Three</option>
+										</select>
+									  </div>
+
+									  <div class="col s6">
+									  	<!-- Default input -->
+										<label for="exampleForm2"><span>Amount</span></label>
+										<input type="text" id="exampleForm2" class="form-control">
+									  </div>
+
+									  	<div class="col s6">
+									  	<!-- Default input -->
+										<label for="exampleForm2"><span>Currency</span></label>
+										 <select class="browser-default custom-select form-control">
+										  <option selected>Currency</option>
+										  <option value="1">USD</option>
+										  <option value="2">RP</option>
+										  <option value="3">MYR</option>
+										</select>
+									  </div>
+							      </div>
+
+							      <!-- kolom 2 -->
+							      <div class="col s6">
+							      	<div class="row">
+							      		<div class="col">
+							      			<h4>Summary</h4>
+							      		</div>
+							      	</div>
+							      	<hr>
+							      	<div class="row">
+							      		<div class="col s6">
+							      			<span>Execution</span>
+							      		</div>
+							      		<div class="col s6">
+							      			<span>Instanly</span>
+							      		</div>
+							      	</div>
+							      	<div class="row">
+							      		<div class="col s6">
+							      			<span>Commision</span>
+							      		</div>
+							      	</div>
+							      	<div class="row">
+							      		<div class="col s6">
+							      			<span>Currency</span>
+							      		</div>
+							      		<div class="col s6">
+							      			<span>MYR</span>
+							      		</div>
+							      	</div>
+							      	<div class="row">
+							      		<div class="col s6">
+							      			<span>Date</span>
+							      		</div>
+							      		<div class="col s6">
+							      			<span>10/23/2018</span>
+							      		</div>
+							      	</div>
+							      	<hr>
+									<div class="row">
+							      		<div class="col">
+							      			<h4>Amount</h4>
+							      		</div>
+							      	</div>
+									<div class="row">
+							      		<div class="col">
+							      			<span>0 USD</span>
+							      		</div>
+							      	</div>
+							      	<hr>
+							      	<div class="col s12 center">
+							      		<button type="button" class="btn btn-primary">Deposit Funds</button>	
+							      	</div>
+							      </div>
+								</div>
+							    </div>
+
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+						<!-- this is the end of modals -->
+
+					    <div class="col s12 m2">
+					      <div class="card">
+					        <div class="card-image">
+					          <img src="images/Bank/maybank.png">
+					        </div>
+					        <div class="card-content">
+					           <ul class="a">
+								  <li>Coffee</li>
+								  <li>Tea</li>
+								  <li>Coca Cola</li>
+							  </ul>
+					        </div>
+					        <div class="card-action">
+					          <a href="#" data-toggle="modal" data-target="#basicExampleModal">This is a link</a>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+							
+					<!-- </table> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<!--========= Scripts ===========-->
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/custom.js"></script>
+	</body>
+</html>
